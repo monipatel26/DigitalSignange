@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: bold;
+    color: #0f1f39 ;
+}
+.MA-0{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.PA-0{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*.ytplayercls{
+    height: 100%;
+}*/
+#ytplayer{
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+.ytplayercls{
+    text-align: center;
+}
+#players .ytp-title{
+    display: none !important;
+}
+.separator{
+    font-size: 38px;
+    top: 26px;
+}
+#dateAndTime{
+    padding: 15px;
+}
+.date-weather-cls{
+    text-align: center;
+}
+.dayWeather{
+    padding: 36px
+}
+header{
+    background-color: #0a2330;
+    padding: 5px 15px;
+}
+header > img{
+    width: 422px;
+    height: 80px;
+}
+.date-weather-cls{
+    background: url(https://www.projectnewhopema.org/wp-content/uploads/2019/01/home-img.jpg);
+    background-size: contain;
+    color: #fff;
+}
+.carousel-inner{
+    height: 100%
+}
+.notification-item{
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+#notification {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#notilication-ul{
+    display: table-cell;
+    vertical-align: middle;
+    list-style-position: inside;
+    font-size: 32px;
+}
+.notify {
+    margin: 20px;
+}
+
+#forecast td,#forecast th {
+    border: 1px solid;
+    padding: 14px;
+}
+
+#forecast th {
+    background-color: #0a2330;
+    color: #fff;
+}
+#forecast > table{
+    width: 100%;
+}
+.fc-button {
+    padding: 5px;
+}
